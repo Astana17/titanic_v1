@@ -73,15 +73,19 @@ kaggle-titanic/
 
 ## Запуск
 
-### 1. Установить зависимости
+### 2. Подготовка окружения 
+```bash
+python3 -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
+### 2. Установить зависимости
 ```bash
 pip install -r requirements.txt
 ```
-
-### 2. Скачать данные
-Скачать `train.csv`, `test.csv`, `gender_submission.csv` с:
-https://www.kaggle.com/c/titanic/data
-и положить в папку `data/`.
 
 ### 3. Запустить ноутбук
 ```bash
